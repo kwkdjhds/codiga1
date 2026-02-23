@@ -34,6 +34,7 @@
 # soma = valor1 + valor2
 
 # print("a soma dos valores e de:", soma)
+
 # valor2 = int(input("digite o valor 2: "))
 
 # # soma = +, multiplicacao = *, divisao = /, subtracao = -
@@ -63,20 +64,15 @@
 # print("o imc e de", imc)
 
 
-a = float(input("digite o valor a: "))
-b = float(input("digite o valor b: "))
-c = float(input("digite o valor c: "))
 
-delta = (b**2) - (4 * a * c)
-
-
-x1 = (-b + (delta**0.5)) / 2 * a
-
-x2 = (-b - (delta**0.5)) / 2 * a
-
-print("x1 =", x1, "x2 =", x2)
+a = float(input("Digite o valor de a: "))
+b = float(input("Digite o valor de b: "))
+c = float(input("Digite o valor de c: "))
 
 
+delta = (b ** 2) - (4 * a * c)
+
+print("o resultado e", delta)
 
 
 
